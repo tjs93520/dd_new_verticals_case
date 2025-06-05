@@ -1,16 +1,15 @@
 name: dd_case
-channels:
-  - conda-forge
 dependencies:
   - python=3.11
-  - pandas
-  - numpy
-  - matplotlib
-  - jupyterlab
-  - scikit-learn
-  - shap
-  - streamlit
-  - pytest
   - pip
   - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - jupyterlab
+      - scikit-learn
+      - shap
+      - streamlit
+      - pytest
       - black
+
