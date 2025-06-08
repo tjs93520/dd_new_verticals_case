@@ -1,0 +1,15 @@
+name: dd_case
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - jupyterlab
+      - scikit-learn
+      - shap
+      - streamlit
+      - pytest
+      - black
+

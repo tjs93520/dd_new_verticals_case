@@ -4,6 +4,13 @@ Usage:
     from simulate import run_scenario
     run_scenario(clat_boost=0.02, inventory_boost=0.05)
 """
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
+import streamlit as st
+from simulate import run_scenario
+
 from __future__ import annotations
 import numpy as np
 from dataclasses import dataclass
